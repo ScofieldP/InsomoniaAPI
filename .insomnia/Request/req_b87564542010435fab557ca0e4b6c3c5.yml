@@ -1,0 +1,47 @@
+_id: req_b87564542010435fab557ca0e4b6c3c5
+type: Request
+parentId: fld_52888fda350347309877e6308560b2c3
+modified: 1669303263064
+created: 1669298081758
+url: http://localhost:8800/api/rooms/637f7cb262993bb3bd8705ff
+name: CREATE MATERIAL
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name":"Kéo",
+    	"roomNumbers":[
+    		{
+    		 "title":"Kéo dài", 
+    		 "price":"25000", 
+    		 "unit":"cây",
+    		 "desc":"Kéo dài", 
+    		 "from":"vietnam", 
+    		 "quantity":15
+    		},
+    		{
+    		 "title":"Kéo ngắn", 
+    		 "price":"30000", 
+    		 "unit":"cây",
+    		 "desc":"Vải chính", 
+    		 "from":"vietnam", 
+    		 "quantity":20
+    		}
+    		
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669298081758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

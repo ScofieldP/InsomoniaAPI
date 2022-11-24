@@ -1,0 +1,21 @@
+_id: req_dc2071450f2b49b591386f237abee0ff
+type: Request
+parentId: fld_52888fda350347309877e6308560b2c3
+modified: 1669301589058
+created: 1669299461480
+url: http://localhost:8800/api/rooms/
+name: GET ALL MATERIAL
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1669299461480
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

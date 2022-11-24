@@ -1,0 +1,30 @@
+_id: req_00b4652a40eb4e958695c66f3d5fad50
+type: Request
+parentId: fld_bd90b1a318234b8baddad38cbe9a837a
+modified: 1669303280424
+created: 1669297042613
+url: http://localhost:8800/api/hotels/
+name: GET ALL WAREHOUSE
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name":"Kho cúc",
+    	"type":"Chứa các loại cúc",
+    	"state": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669297042613
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

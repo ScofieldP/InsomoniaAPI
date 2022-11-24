@@ -1,0 +1,31 @@
+_id: req_c3b583f92b454120afccc4039d8498dd
+type: Request
+parentId: fld_ebef2da014014ed19bcd34e7329f4421
+modified: 1669283510279
+created: 1669015887514
+url: http://localhost:8000/api/users/register
+name: REGISTER
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username":"scofield",
+    	"email":"scofield@123",
+    	"password":"123456789"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4b231453c82245c78cd07eace0a0e92d
+authentication: {}
+metaSortKey: -1668550403307.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

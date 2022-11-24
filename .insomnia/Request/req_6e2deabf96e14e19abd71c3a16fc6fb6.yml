@@ -1,0 +1,21 @@
+_id: req_6e2deabf96e14e19abd71c3a16fc6fb6
+type: Request
+parentId: fld_bd90b1a318234b8baddad38cbe9a837a
+modified: 1669300344105
+created: 1669300333619
+url: ""
+name: DELETE WAREHOUSE
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1669300333619
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

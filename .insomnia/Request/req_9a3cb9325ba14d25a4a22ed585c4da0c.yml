@@ -1,0 +1,21 @@
+_id: req_9a3cb9325ba14d25a4a22ed585c4da0c
+type: Request
+parentId: fld_52888fda350347309877e6308560b2c3
+modified: 1669302013202
+created: 1669299535101
+url: http://localhost:8800/api/rooms/637f7c8762993bb3bd8705fc/637f862962993bb3bd870613
+name: DELETE MATERIAL
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1669299535101
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

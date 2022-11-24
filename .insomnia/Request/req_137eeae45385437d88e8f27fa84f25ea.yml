@@ -1,0 +1,38 @@
+_id: req_137eeae45385437d88e8f27fa84f25ea
+type: Request
+parentId: fld_ebef2da014014ed19bcd34e7329f4421
+modified: 1669299578139
+created: 1667662451640
+url: http://localhost:8000/api/users/login
+name: LOGIN
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"phuc@123",
+    	"password":"123456789"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4af33890c4c945548855ede394180a20
+  - id: pair_b92db940405a441b8ee82771a36f5caa
+    name: ""
+    value: ""
+    description: ""
+  - id: pair_673343091f864ff6a83b5e33247dd42b
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1668550403326.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

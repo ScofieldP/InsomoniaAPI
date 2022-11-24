@@ -1,0 +1,33 @@
+_id: req_7243fa17c1b94b3abbe5569c41024228
+type: Request
+parentId: fld_d3fe56d085bb40a3bdbea2f413e5ea84
+modified: 1669304239375
+created: 1669297403504
+url: http://localhost:8800/api/auth/register
+name: REGISTER
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username":"thukho",
+    	"email":"thukho@123",
+    	"country":"vietnam",
+    	"phone":"0582575704",
+    	"password":"@lttp25092001",
+    	"isAdmin":false
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669297403504
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

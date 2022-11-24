@@ -1,0 +1,29 @@
+_id: req_41e16233e2344d88b628ffa74d742ef5
+type: Request
+parentId: fld_d3fe56d085bb40a3bdbea2f413e5ea84
+modified: 1669304989414
+created: 1669297820566
+url: http://localhost:8800/api/auth/login
+name: LOGIN
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "username":"thukho",
+    	"password":"@lttp25092001"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669297403454
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
