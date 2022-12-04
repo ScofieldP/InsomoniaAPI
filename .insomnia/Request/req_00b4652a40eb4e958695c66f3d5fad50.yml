@@ -1,7 +1,7 @@
 _id: req_00b4652a40eb4e958695c66f3d5fad50
 type: Request
 parentId: fld_bd90b1a318234b8baddad38cbe9a837a
-modified: 1669303280424
+modified: 1670137101944
 created: 1669297042613
 url: http://localhost:8800/api/hotels/
 name: GET ALL WAREHOUSE

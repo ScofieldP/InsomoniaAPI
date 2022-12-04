@@ -1,17 +1,17 @@
-_id: req_1656a6edde3946b89b1ec0f1075f1305
+_id: req_324d7735aa6248f79b4baae51df42b1f
 type: Request
-parentId: fld_ebef2da014014ed19bcd34e7329f4421
-modified: 1669391964566
-created: 1669038165565
-url: http://localhost:5000/user/logout
-name: LOGOUT
+parentId: fld_8ef00e19e0a24d76a0141038e9a53208
+modified: 1670137062169
+created: 1670136518817
+url: ""
+name: UPDATE SUPPLIER
 description: ""
-method: POST
+method: PUT
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1668550403314
+metaSortKey: -1670136518817
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

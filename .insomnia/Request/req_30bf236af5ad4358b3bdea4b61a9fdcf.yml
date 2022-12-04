@@ -1,17 +1,17 @@
-_id: req_1656a6edde3946b89b1ec0f1075f1305
+_id: req_30bf236af5ad4358b3bdea4b61a9fdcf
 type: Request
-parentId: fld_ebef2da014014ed19bcd34e7329f4421
-modified: 1669391964566
-created: 1669038165565
-url: http://localhost:5000/user/logout
-name: LOGOUT
+parentId: fld_8ef00e19e0a24d76a0141038e9a53208
+modified: 1670137091221
+created: 1670136650266
+url: http://localhost:8800/api/suppliers/
+name: GET ALL SUPPLIER
 description: ""
-method: POST
+method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1668550403314
+metaSortKey: -1670136650266
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

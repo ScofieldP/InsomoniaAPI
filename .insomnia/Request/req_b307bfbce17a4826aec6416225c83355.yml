@@ -1,17 +1,17 @@
-_id: req_1656a6edde3946b89b1ec0f1075f1305
+_id: req_b307bfbce17a4826aec6416225c83355
 type: Request
-parentId: fld_ebef2da014014ed19bcd34e7329f4421
-modified: 1669391964566
-created: 1669038165565
-url: http://localhost:5000/user/logout
-name: LOGOUT
+parentId: fld_13dec659bf8448eabfd835719e523c12
+modified: 1670139156414
+created: 1670139051411
+url: http://localhost:8800/api/factories/
+name: GET FACTORY
 description: ""
-method: POST
+method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1668550403314
+metaSortKey: -1670139051411
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,27 +1,27 @@
-_id: req_c3b583f92b454120afccc4039d8498dd
+_id: req_1aedb049ffba4c4381a5b7fe4d5196b6
 type: Request
-parentId: fld_ebef2da014014ed19bcd34e7329f4421
-modified: 1669650269403
-created: 1669015887514
-url: http://localhost:5000/api/users/register
-name: REGISTER
+parentId: fld_8ef00e19e0a24d76a0141038e9a53208
+modified: 1670137429728
+created: 1670136521892
+url: http://localhost:8800/api/suppliers/
+name: CREATE SUPPLIER
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"username":"scofield",
-    	"email":"scofield@123",
-    	"password":"123456789"
+    	"name":"Nhà cung cấp 1",
+    	"email":"ncc1@gmail.com",
+    	"address":"Hồ Chí Minh",
+    	"phone":"0783467824"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_4b231453c82245c78cd07eace0a0e92d
 authentication: {}
-metaSortKey: -1668550403307.75
+metaSortKey: -1670136521892
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

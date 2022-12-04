@@ -1,7 +1,7 @@
 _id: req_41e16233e2344d88b628ffa74d742ef5
 type: Request
 parentId: fld_d3fe56d085bb40a3bdbea2f413e5ea84
-modified: 1669304989414
+modified: 1670137120331
 created: 1669297820566
 url: http://localhost:8800/api/auth/login
 name: LOGIN
@@ -11,13 +11,14 @@ body:
   mimeType: application/json
   text: |-
     {
-      "username":"thukho",
+      "username":"admin123",
     	"password":"@lttp25092001"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_0083404dfb934972ae37636faf7cd9b6
 authentication: {}
 metaSortKey: -1669297403454
 isPrivate: false

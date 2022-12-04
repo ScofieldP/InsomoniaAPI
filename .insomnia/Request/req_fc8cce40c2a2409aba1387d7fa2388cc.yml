@@ -1,22 +1,25 @@
-_id: req_30e4486d4a814085b0f6430bd42bf589
+_id: req_fc8cce40c2a2409aba1387d7fa2388cc
 type: Request
-parentId: fld_ebef2da014014ed19bcd34e7329f4421
-modified: 1669446634355
-created: 1667817313324
-url: http://localhost:5000/api/auth/
-name: GET ALL USER
+parentId: fld_13dec659bf8448eabfd835719e523c12
+modified: 1670139206557
+created: 1670139050739
+url: http://localhost:8800/api/factories/
+name: CREATE FACTORY
 description: ""
-method: GET
+method: POST
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"name":"Phân xưởng 2",
+    	"phone":"0202020202"
+    }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_caae2bd4e52a44a3894e63e1ea4f5ab5
 authentication: {}
-metaSortKey: -1668550403351.5
+metaSortKey: -1670139050739
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

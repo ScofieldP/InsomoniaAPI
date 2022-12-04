@@ -1,17 +1,21 @@
 _id: req_dc2071450f2b49b591386f237abee0ff
 type: Request
 parentId: fld_52888fda350347309877e6308560b2c3
-modified: 1669301589058
+modified: 1670091530111
 created: 1669299461480
 url: http://localhost:8800/api/rooms/
 name: GET ALL MATERIAL
 description: ""
 method: GET
-body: {}
+body:
+  mimeType: application/json
+  text: ""
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication: {}
-metaSortKey: -1669299461480
+metaSortKey: -1669298771619
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
