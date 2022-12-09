@@ -1,7 +1,7 @@
 _id: req_00b4652a40eb4e958695c66f3d5fad50
 type: Request
 parentId: fld_bd90b1a318234b8baddad38cbe9a837a
-modified: 1670137101944
+modified: 1670599379786
 created: 1669297042613
 url: http://localhost:8800/api/hotels/
 name: GET ALL WAREHOUSE
@@ -11,14 +11,15 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name":"Kho cúc",
-    	"type":"Chứa các loại cúc",
+    	"name":"Kho vải",
+    	"type":"Chứa các loại vải",
     	"state": true
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_9a8a29f4afc54e9a851cfe7368183e14
 authentication: {}
 metaSortKey: -1669297042613
 isPrivate: false

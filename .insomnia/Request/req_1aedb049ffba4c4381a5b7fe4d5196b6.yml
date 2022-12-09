@@ -1,7 +1,7 @@
 _id: req_1aedb049ffba4c4381a5b7fe4d5196b6
 type: Request
 parentId: fld_8ef00e19e0a24d76a0141038e9a53208
-modified: 1670137429728
+modified: 1670600958317
 created: 1670136521892
 url: http://localhost:8800/api/suppliers/
 name: CREATE SUPPLIER
