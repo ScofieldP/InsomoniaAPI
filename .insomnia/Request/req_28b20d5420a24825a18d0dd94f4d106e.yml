@@ -1,9 +1,9 @@
 _id: req_28b20d5420a24825a18d0dd94f4d106e
 type: Request
 parentId: fld_bd90b1a318234b8baddad38cbe9a837a
-modified: 1670599379176
+modified: 1670839682008
 created: 1669299307519
-url: http://localhost:8800/api/hotels/
+url: http://localhost:8800/api/warehouses/
 name: CREATE WAREHOUSE
 description: ""
 method: POST
@@ -21,7 +21,7 @@ headers:
     value: application/json
     id: pair_1074b5d60213480fa8f345ccd9ab1f4d
 authentication: {}
-metaSortKey: -1669299307519
+metaSortKey: -1669302345739
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

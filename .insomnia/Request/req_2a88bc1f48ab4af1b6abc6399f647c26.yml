@@ -1,17 +1,17 @@
-_id: req_6e2deabf96e14e19abd71c3a16fc6fb6
+_id: req_2a88bc1f48ab4af1b6abc6399f647c26
 type: Request
-parentId: fld_bd90b1a318234b8baddad38cbe9a837a
-modified: 1670833462721
-created: 1669300333619
-url: http://localhost:8800/api/warehouses/6396e44c903a1149686350b1
-name: DELETE WAREHOUSE
+parentId: fld_fcb3d9ac8cb4425baa8b122e5c73492b
+modified: 1670840036028
+created: 1670664362972
+url: ""
+name: GET EXPORT
 description: ""
-method: DELETE
+method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1669300333619
+metaSortKey: -1670664362972
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

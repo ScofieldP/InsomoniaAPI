@@ -1,9 +1,9 @@
 _id: req_b87564542010435fab557ca0e4b6c3c5
 type: Request
 parentId: fld_52888fda350347309877e6308560b2c3
-modified: 1670599175486
+modified: 1670839651813
 created: 1669298081758
-url: http://localhost:8800/api/rooms/639351f7b532606259405ca9
+url: http://localhost:8800/api/materials/6396ef958535832b70be3e67
 name: CREATE MATERIAL
 description: ""
 method: POST
@@ -11,18 +11,11 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name":"Vải",
-    	"roomNumbers":[
-    		{
-    		 "title":"Vải gray", 
-    		 "price":"25000", 
-    		 "unit":"cây",
-    		 "desc":"Kéo dài", 
-    		 "from":"vietnam", 
-    		 "quantity":15
-    		}
-    				
-    	]
+    	"name":"Vải lào",
+    	"price":"25000", 
+    	"unit":"cây",
+    	"desc":"Vải dài", 
+    	"quantity":16
     }
 parameters: []
 headers:
@@ -30,7 +23,7 @@ headers:
     value: application/json
     id: pair_ed0329a6be034ea7a2264220485b4814
 authentication: {}
-metaSortKey: -1669298081758
+metaSortKey: -1669299535126
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,17 +1,17 @@
-_id: req_9a3cb9325ba14d25a4a22ed585c4da0c
+_id: req_95a088feb8a1455a8d0e88b827e5ed96
 type: Request
-parentId: fld_52888fda350347309877e6308560b2c3
-modified: 1670678918605
-created: 1669299535101
-url: http://localhost:8800/api/rooms/637f7c8762993bb3bd8705fc/639351a1b532606259405c97
-name: DELETE MATERIAL
+parentId: fld_3430138d1a8f4ffba3e2f44f84a40fa9
+modified: 1670839995185
+created: 1670839976162
+url: ""
+name: DELETE IMPORT
 description: ""
 method: DELETE
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1669299535101
+metaSortKey: -1670664354583
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

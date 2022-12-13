@@ -1,9 +1,9 @@
 _id: req_1aedb049ffba4c4381a5b7fe4d5196b6
 type: Request
 parentId: fld_8ef00e19e0a24d76a0141038e9a53208
-modified: 1670600958317
+modified: 1670839664334
 created: 1670136521892
-url: http://localhost:8800/api/suppliers/
+url: http://localhost:8800/api/suppliers/6396fceb67d8c8977036f4fb
 name: CREATE SUPPLIER
 description: ""
 method: POST
@@ -11,17 +11,18 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name":"Nhà cung cấp 1",
+    	"name":"Nhà cung cấp2",
     	"email":"ncc1@gmail.com",
-    	"address":"Hồ Chí Minh",
-    	"phone":"0783467824"
+    	"address":"Sài gòn",
+    	"phone":"0783467824",
+    	"materialProvide":"Vải gray"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1670136521892
+metaSortKey: -1670136586731.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
