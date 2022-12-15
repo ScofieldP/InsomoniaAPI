@@ -1,9 +1,9 @@
 _id: req_3bc55c7867134f90a0a8d4aa282b06e8
 type: Request
 parentId: fld_fcb3d9ac8cb4425baa8b122e5c73492b
-modified: 1670840067355
+modified: 1670953030810
 created: 1670840057595
-url: ""
+url: http://localhost:8800/api/exports/6398b1cc672c30d4de785bc2
 name: DELETE EXPORT
 description: ""
 method: DELETE

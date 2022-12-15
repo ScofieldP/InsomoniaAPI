@@ -1,15 +1,41 @@
 _id: req_d9cfa749c06a4fe69798f2208aaa7402
 type: Request
 parentId: fld_fcb3d9ac8cb4425baa8b122e5c73492b
-modified: 1670840045459
+modified: 1671077031736
 created: 1670664362245
-url: ""
+url: http://localhost:8800/api/exports
 name: CREATE EXPORT
 description: ""
 method: POST
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	 "userId": "637f761a2454a4fd551f71d2",
+      "factoryId": "638c4d39ae0842e799b662db",
+      "materials": [
+       {
+          "materialId": "6396efb68535832b70be3e6b",
+          "quantity": "2"
+        },
+    		{
+          "materialId": "6396f5136f1154f2ffb6c754",
+          "quantity": "4"
+        },
+    		{
+          "materialId": "6397f9ea85f8a5c476d8d0b2",
+          "quantity": "1"
+        },
+    		{
+          "materialId": "6396fceb67d8c8977036f4fb",
+          "quantity": "3"
+        }
+      ]
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication: {}
 metaSortKey: -1670664362245
 isPrivate: false

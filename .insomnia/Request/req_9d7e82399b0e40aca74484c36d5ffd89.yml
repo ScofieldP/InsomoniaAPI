@@ -1,15 +1,41 @@
 _id: req_9d7e82399b0e40aca74484c36d5ffd89
 type: Request
 parentId: fld_3430138d1a8f4ffba3e2f44f84a40fa9
-modified: 1670839992557
+modified: 1670953751934
 created: 1670664354632
-url: ""
+url: http://localhost:8800/api/imports/6398b8b5373f4d77c549a14f
 name: UPDATE IMPORT
 description: ""
 method: PUT
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	 "userId": "637f761a2454a4fd551f71d2",
+      "supplierId": "6396ef8c8535832b70be3e65",
+      "materials": [
+       {
+          "materialId": "6396efb68535832b70be3e6b",
+          "quantity": "20"
+        },
+    		{
+          "materialId": "6396f5136f1154f2ffb6c754",
+          "quantity": "40"
+        },
+    		{
+          "materialId": "6397f9ea85f8a5c476d8d0b2",
+          "quantity": "10"
+        },
+    		{
+          "materialId": "6396fceb67d8c8977036f4fb",
+          "quantity": "30"
+        }
+      ]
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication: {}
 metaSortKey: -1670664354633
 isPrivate: false

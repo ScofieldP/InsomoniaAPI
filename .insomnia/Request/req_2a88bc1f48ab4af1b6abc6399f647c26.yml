@@ -1,9 +1,9 @@
 _id: req_2a88bc1f48ab4af1b6abc6399f647c26
 type: Request
 parentId: fld_fcb3d9ac8cb4425baa8b122e5c73492b
-modified: 1670840036028
+modified: 1670936223289
 created: 1670664362972
-url: ""
+url: http://localhost:8800/api/exports
 name: GET EXPORT
 description: ""
 method: GET

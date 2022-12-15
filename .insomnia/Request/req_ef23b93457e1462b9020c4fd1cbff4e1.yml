@@ -1,15 +1,41 @@
 _id: req_ef23b93457e1462b9020c4fd1cbff4e1
 type: Request
 parentId: fld_3430138d1a8f4ffba3e2f44f84a40fa9
-modified: 1670839989398
+modified: 1670953728666
 created: 1670664357395
-url: ""
+url: http://localhost:8800/api/imports
 name: CREATE IMPORT
 description: ""
 method: POST
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	 "userId": "637f761a2454a4fd551f71d2",
+      "supplierId": "6396ef8c8535832b70be3e65",
+      "materials": [
+       {
+          "materialId": "6396efb68535832b70be3e6b",
+          "quantity": "2"
+        },
+    		{
+          "materialId": "6396f5136f1154f2ffb6c754",
+          "quantity": "4"
+        },
+    		{
+          "materialId": "6397f9ea85f8a5c476d8d0b2",
+          "quantity": "1"
+        },
+    		{
+          "materialId": "6396fceb67d8c8977036f4fb",
+          "quantity": "3"
+        }
+      ]
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication: {}
 metaSortKey: -1670664357395
 isPrivate: false

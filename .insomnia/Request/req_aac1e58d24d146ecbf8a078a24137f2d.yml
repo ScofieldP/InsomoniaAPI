@@ -1,9 +1,9 @@
 _id: req_aac1e58d24d146ecbf8a078a24137f2d
 type: Request
 parentId: fld_3430138d1a8f4ffba3e2f44f84a40fa9
-modified: 1670839947824
+modified: 1670953685639
 created: 1670664359489
-url: ""
+url: http://localhost:8800/api/imports
 name: GET IMPORT
 description: ""
 method: GET
