@@ -1,25 +1,21 @@
-_id: req_fc8cce40c2a2409aba1387d7fa2388cc
+_id: req_61d893c12a6843cd9c03f7cb95b14b9c
 type: Request
-parentId: fld_13dec659bf8448eabfd835719e523c12
-modified: 1671630961842
-created: 1670139050739
-url: http://localhost:8800/api/factories/
-name: CREATE FACTORY
+parentId: fld_dad7faa813f849ff8db027b254ce7870
+modified: 1671631666407
+created: 1671631543947
+url: http://localhost:8800/api/users/63a3130b94649bccc4ad1fd6
+name: Delete User
 description: ""
-method: POST
+method: DELETE
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"name":"Phân xưởng 3",
-    	"phone":"0202020202"
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1670139051994
+metaSortKey: -1671625377975.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

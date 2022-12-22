@@ -1,9 +1,9 @@
-_id: req_da530725428d4cf18c5e392197dc1628
+_id: req_c9ae2bd95a1740b2af1646b7814c1865
 type: Request
-parentId: wrk_7cbdb33ef8aa4a1f981741e8b24aea5f
-modified: 1671082061829
-created: 1671082061829
-url: ""
+parentId: fld_dad7faa813f849ff8db027b254ce7870
+modified: 1671619793101
+created: 1671619780170
+url: http://localhost:8800/api/users
 name: New Request
 description: ""
 method: GET
@@ -11,7 +11,7 @@ body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1671082061829
+metaSortKey: -1671619780170
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,0 +1,34 @@
+_id: req_2a3866a05a8e4f589ed63203e961f153
+type: Request
+parentId: fld_dad7faa813f849ff8db027b254ce7870
+modified: 1671631260153
+created: 1671630975781
+url: http://localhost:8800/api/auth/register
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username":"nv1",
+    	"email":"nv1@23",
+    	"country":"Việt Nam",
+    	"phone":"123456789",
+    	"password":"123456789",
+    	"role":5,
+    	"managerId":"63a31072982405313980da7f"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1671630975781
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

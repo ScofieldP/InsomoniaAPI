@@ -1,15 +1,19 @@
 _id: req_b816a26c6de040ce81cf21f72e1035d0
 type: Request
 parentId: fld_13dec659bf8448eabfd835719e523c12
-modified: 1670139099049
+modified: 1671682346466
 created: 1670139047266
-url: ""
+url: http://localhost:8800/api/factories/delete/63a31072982405313980da7f
 name: DELETE FACTORY
 description: ""
-method: DELETE
-body: {}
+method: PUT
+body:
+  mimeType: application/json
+  text: ""
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication: {}
 metaSortKey: -1670139047266
 isPrivate: false
